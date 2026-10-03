@@ -13,7 +13,7 @@ from google.genai import types
 
 load_dotenv()
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
 
 st.set_page_config(page_title="EduGenie", page_icon="🧞", layout="wide")
 
